@@ -18,5 +18,9 @@ git branch <name>		#创建分支
 git checkout <name>/git switch <name>		#切换分支
 git checkout -b <name>/git switch -c <name>		#创建并切换分支
 git merge <name>		#把<name>分支合并到当前分支上
+git merge --no-ff -m "<message>" <name>		#合并v分支，请注意--no-ff参数，表示禁用Fast forward模式，这样就有历史分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
 git branch -d <name>		#删除分支
 git log --graph --pretty=oneline --abbrev-commit		#看分支合并图
+git stash
+git stash pop
+git cherry-pick <commit>
