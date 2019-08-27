@@ -1,8 +1,0 @@
-git init		--初始化一个Git仓库
-git add <file>		--把文件添加到仓库
-git commit -m <message>		--把文件提交到仓库
-git status		--掌握工作区的状态
-git diff		--查看修改内容
-git log		--查看提交历史
-git reset --hard commit_id		--commit版本间切换
-git reflog		--查看命令历史
